@@ -68,10 +68,7 @@ Anh xa cong cua container toi host (truy cap cac container)
 ```
 docker run -it  --name <name_container> -p <port_host>:<port_container> <image>    
 ```
-Ket noi container voi 1 network chi dinh
-```
-docker run -it --name <name_container> --network name_network> <image>
-```
+
 Tao network 
 ```
 docker network create --driver <driver_type> <name_network>
@@ -83,4 +80,12 @@ docker network create --driver bridge network1
 Xoa network
 ```
 docker network rm <name_network>
+```
+Ket noi container voi 1 network chi dinh
+```
+docker run -it --name <name_container> --network name_network> <image>
+```
+Gan container dang chay ket noi toi network chi dinh
+```
+docker network connect <name_network> <name_container>
 ```
