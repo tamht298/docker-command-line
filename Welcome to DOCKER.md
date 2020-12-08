@@ -1,6 +1,6 @@
 Welcome to DOCKER
 ====================
-
+Link full docs: https://docs.google.com/document/d/13jmbBC0mbOIYtSDtJuXzbxpPcOkd8nKwyyOarO6Iujo/edit?usp=sharing
 
 
 ## Docker 04
